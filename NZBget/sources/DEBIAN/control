@@ -1,0 +1,16 @@
+Package: nzbget-latest
+Version: 01-LatestStableRelease
+Architecture: all
+Maintainer: Ariek <do.not.use.this@emailaddress.com>
+Installed-Size: 3000
+Depends: libjs-elycharts (>= 2.1.5), libjs-raphael (>= 2.1.0), libjs-twitter-bootstrap (>= 2.0.2), unrar-free, p7zip, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libncurses5 (>= 5.5-5~), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.9), libtinfo5, libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0)
+Recommends: python
+Suggests: par2
+Section: net
+Priority: extra
+Homepage: http://nzbget.net/
+Description: The most efficient usenet downloader.
+ Built for speed, works everywhere
+ NZBGet is written in C++ and designed with performance in mind to
+ achieve maximum download speed by using very little system resources.
+ 
