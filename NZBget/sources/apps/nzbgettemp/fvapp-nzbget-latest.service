@@ -1,0 +1,16 @@
+[Unit]
+Description=NZBGet: The most efficient usenet downloader.
+After=network.target
+
+[Service]
+User=admin
+Group=admin
+Type=forking
+PIDFile=nzbget.lock
+RuntimeDirectory=/apps/nzbget-latest
+ExecStart=/apps/nzbget-latest/nzbget -D
+ExecStop=/apps/nzbget-latest/nzbget -Q
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

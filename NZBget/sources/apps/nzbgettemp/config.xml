@@ -1,0 +1,14 @@
+<Application resource-id="nzbget-latest"><!-- 'resource-id' must be AppName -->
+  <Name>NZBGet</Name>
+  <Author>ArIeK</Author>
+  <Version>01-LatestStableRelease</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>http://localhost:6789</LaunchURL>
+  <ReservePort>6789</ReservePort>
+  <InfoURL>http://nzbget.net/</InfoURL>
+  <DebianPackage>nzbget-latest</DebianPackage>
+  <ServiceName>fvapp-nzbget-latest.service</ServiceName>
+  <Description lang="en-us">The most efficient usenet downloader. Default username: nzbget / password: tegbzn6789.
+  This package installs the latest available stable NZBget release.</Description>
+</Application>
