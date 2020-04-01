@@ -1,6 +1,7 @@
 # Package for ReadyNAS
 
 Required firmware version: ReadyNAS OS 6, all architectures.
+
 Tested on: ReadyNAS OS6, version 6.10.3, x86
 
 ## Application: NZBget
