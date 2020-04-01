@@ -12,5 +12,5 @@ This packages acts as a *wrapper* around the automated Linux installation of NZB
 This package installs a *stock release* of the latest available Linux release of NZBget.
 
 #### How to update NZBget
-Future updates of NZBget can be installed by using the update option of NZBget. Go to `System` and press  `Check For Updates` next to Update NZBGet.
+Future updates of NZBget can be installed by using the update option of NZBget. Go to `System` and press  `Check For Updates` next to `Update NZBGet`.
 
