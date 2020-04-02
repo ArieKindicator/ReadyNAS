@@ -1,0 +1,14 @@
+<Application resource-id="medusa"><!-- 'resource-id' must be AppName -->
+  <Category>APP_CAT_MEDIA</Category>
+  <Name>Medusa</Name>
+  <Author>ArIeK</Author>
+  <Version>2020.30.03-v0.3.14</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>http://localhost:8081</LaunchURL>
+  <ReservePort>8081</ReservePort>
+  <InfoURL>https://pymedusa.com/</InfoURL>
+  <DebianPackage>medusa</DebianPackage>
+  <ServiceName>fvapp-medusa.service</ServiceName>
+  <Description lang="en-us">An automatic Video Library Manager for TV Shows.</Description>
+</Application>

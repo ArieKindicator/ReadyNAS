@@ -1,0 +1,4 @@
+medusa: non-standard-toplevel-dir apps/
+medusa: file-in-unusual-dir apps/medusa/*
+medusa: script-not-executable apps/medusa/*
+medusa: executable-not-elf-or-script apps/medusa/*

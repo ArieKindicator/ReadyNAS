@@ -1,0 +1,10 @@
+Package: medusa
+Version: 2020.30.03-v0.3.14
+Architecture: all
+Maintainer: ArieK
+Installed-Size: 1000000
+Depends: readynasos (>= 6.1.0), php5-sqlite, python (>= 2.7.3-4+deb7u1), python-pip, git
+Section: contrib
+Priority: extra
+Homepage: https://pymedusa.com/
+Description: Medusa is an automatic Video Library Manager for TV Shows.
