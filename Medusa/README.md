@@ -12,9 +12,13 @@ This package acts as a *wrapper* and installs Medusa from [source](https://githu
 This package installs a *stock release* of the latest available Medusa release.
 
 Medusa runs as daemon, and uses a pidfile to gracefully shutdown all processes.
+
 `Type=forking
+
 PIDFile=/apps/medusa/medusa.pid
+
 KillMode=process`
+
 These parameters are necessary to use the PIDfile [PID files of services vs. systemd](https://lists.debian.org/debian-user/2016/10/msg00422.html)
 
 Medusa starts with these parameters: `-d --pidfile=/apps/medusa/medusa.pid` All other options are fully customizable.
