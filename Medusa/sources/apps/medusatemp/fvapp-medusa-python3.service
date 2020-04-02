@@ -1,0 +1,15 @@
+[Unit]
+Description=Service for Medusa Automatic Video Library Manager for TV Shows
+
+[Service]
+Type=forking
+PIDFile=/apps/medusa/medusa.pid
+ExecStart=/usr/bin/python3 /apps/medusa/SickBeard.py -d --pidfile=/apps/medusa/medusa.pid
+KillMode=process
+Restart=on-failure
+Nice=18
+User=admin
+Group=admin
+
+[Install]
+WantedBy=multi-user.target
