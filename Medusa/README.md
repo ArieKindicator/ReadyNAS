@@ -15,9 +15,10 @@ Medusa runs as daemon, and uses a pidfile to gracefully shutdown all processes.
 
 
   File: fvapp-medusa.service
-  `Type=forking
-  PIDFile=/apps/medusa/medusa.pid
-  KillMode=process`
+  
+  `Type=forking`
+  `PIDFile=/apps/medusa/medusa.pid`
+  `KillMode=process`
 
 
 These parameters are necessary to use the PIDfile [PID files of services vs. systemd](https://lists.debian.org/debian-user/2016/10/msg00422.html)
