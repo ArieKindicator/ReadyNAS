@@ -34,8 +34,6 @@ Use the update option of Medusa (`Check For Updates`)
 Medusa requires
 
 * Python 2 – 2.7.10 and above, or
-* Python 3 – 3.5.0 and above
-
-In the package `python` links to python2
+* Python 3 – 3.5.0 and above (Note: Python 3.5.x is n't available yet on ReadyNAS OS6, yet; April 2, 2020)
 
 
