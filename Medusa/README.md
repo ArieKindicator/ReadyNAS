@@ -24,7 +24,8 @@ Use the update option of Medusa (`Check For Updates`)
 
 ### Additional information
 Medusa requires
-    * Python 2 – 2.7.10 and above, or
-    * Python 3 – 3.5.0 and above
+
+* Python 2 – 2.7.10 and above, or
+* Python 3 – 3.5.0 and above
 
 
