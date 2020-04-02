@@ -17,7 +17,9 @@ Medusa runs as daemon, and uses a pidfile to gracefully shutdown all processes.
   File: fvapp-medusa.service
   
   `Type=forking`
+  
   `PIDFile=/apps/medusa/medusa.pid`
+  
   `KillMode=process`
 
 
