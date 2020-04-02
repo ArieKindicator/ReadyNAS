@@ -22,7 +22,7 @@ Medusa starts with these parameters: `python -d --pidfile=/apps/medusa/medusa.pi
 #### How to update Medusa
 Use the update option of Medusa (`Check For Updates`)
 
-== Additional information ==
+### Additional information
 Medusa requires
     * Python 2 – 2.7.10 and above, or
     * Python 3 – 3.5.0 and above
