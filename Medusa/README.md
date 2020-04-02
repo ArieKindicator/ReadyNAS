@@ -25,7 +25,7 @@ Medusa runs as daemon, and uses a pidfile to gracefully shutdown all processes.
 
 These parameters are necessary to use the PIDfile [PID files of services vs. systemd](https://lists.debian.org/debian-user/2016/10/msg00422.html)
 
-Medusa starts with these parameters: `-d --pidfile=/apps/medusa/medusa.pid` All other options are fully customizable.
+Medusa starts with these parameters: `-d --pidfile=/apps/medusa/medusa.pid` All other options are fully customizable. Note: use of the pidfile is required to be albe to toggle Medusa on or off.
 
 #### How to update Medusa
 Use the update option of Medusa (`Check For Updates`)
