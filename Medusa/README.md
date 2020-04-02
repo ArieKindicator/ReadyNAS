@@ -36,4 +36,10 @@ Medusa requires
 * Python 2 – 2.7.10 and above, or
 * Python 3 – 3.5.0 and above (Note: Python 3.5.x is n't available yet on ReadyNAS OS6, yet; April 2, 2020)
 
+## FAQ
+* Migrate from Python2 to Python3
+** Make a backup of the main database file and configuration using the build-in backup and restore option of Medusa. Deinstall en reinstall Medusa for Python3.
 
+Or
+* Shutdown Medusa and edit the `fvapp-medusa.service` file in `/apps/medusa`.
+Change `/usb/bin/phython2` to `/usb/bin/phython3` in `ExecStart=/usr/bin/python2 /apps/medusa/SickBeard.py -d --pidfile=/apps/medusa/medusa.pid`
