@@ -17,7 +17,7 @@ PIDFile=/apps/medusa/medusa.pid
 KillMode=process`
 These parameters are necessary to use the PIDfile [PID files of services vs. systemd](https://lists.debian.org/debian-user/2016/10/msg00422.html)
 
-Medusa starts with these parameters: `python -d --pidfile=/apps/medusa/medusa.pid` All other options are fully customizable.
+Medusa starts with these parameters: `-d --pidfile=/apps/medusa/medusa.pid` All other options are fully customizable.
 
 #### How to update Medusa
 Use the update option of Medusa (`Check For Updates`)
@@ -27,5 +27,7 @@ Medusa requires
 
 * Python 2 – 2.7.10 and above, or
 * Python 3 – 3.5.0 and above
+
+In the package `python` links to python2
 
 
