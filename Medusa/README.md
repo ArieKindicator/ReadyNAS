@@ -41,11 +41,11 @@ These parameters are necessary to use the PIDfile [PID files of services vs. sys
 Medusa starts with these parameters: `-d --pidfile=/apps/medusa/medusa.pid` All other options are fully customizable. Note: the pidfile is required,  to be able to toggle Medusa on or off.
 
 ## FAQ
-* Migrate from Python2 to Python3
+_Migrate from Python2 to Python3_
 
-  * Make a backup of the main database file and configuration using the build-in backup and restore option of Medusa. Deinstall and reinstall Medusa for Python3.
+* Make a backup of the main database file and configuration using the build-in backup and restore option of Medusa. Deinstall and reinstall Medusa for Python3.
 
 Or
 
-  * Shutdown Medusa and edit the `fvapp-medusa.service` file in `/apps/medusa`.
+* Shutdown Medusa and edit the `fvapp-medusa.service` file in `/apps/medusa`.
 Change `/usb/bin/phython2` to `/usb/bin/phython3` in `ExecStart=/usr/bin/python2 /apps/medusa/start.py -d --pidfile=/apps/medusa/medusa.pid`
