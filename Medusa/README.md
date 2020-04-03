@@ -46,5 +46,5 @@ Medusa starts with these parameters: `-d --pidfile=/apps/medusa/medusa.pid` All 
   * Make a backup of the main database file and configuration using the build-in backup and restore option of Medusa. Deinstall and reinstall Medusa for Python3.
 
 Or
-  * Shutdown Medusa and edit the `fvapp-medusa.service` file in `/apps/medusa`.
+    * Shutdown Medusa and edit the `fvapp-medusa.service` file in `/apps/medusa`.
 Change `/usb/bin/phython2` to `/usb/bin/phython3` in `ExecStart=/usr/bin/python2 /apps/medusa/start.py -d --pidfile=/apps/medusa/medusa.pid`
