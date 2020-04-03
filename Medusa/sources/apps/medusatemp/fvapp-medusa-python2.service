@@ -4,7 +4,7 @@ Description=Service for Medusa Automatic Video Library Manager for TV Shows
 [Service]
 Type=forking
 PIDFile=/apps/medusa/medusa.pid
-ExecStart=/usr/bin/python2 /apps/medusa/SickBeard.py -d --pidfile=/apps/medusa/medusa.pid
+ExecStart=/usr/bin/python2 /apps/medusa/start.py -d --pidfile=/apps/medusa/medusa.pid
 KillMode=process
 Restart=on-failure
 Nice=18
