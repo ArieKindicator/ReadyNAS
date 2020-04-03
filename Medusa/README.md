@@ -13,6 +13,19 @@ This package installs a *stock release* of the latest available Medusa release.
 
 Medusa runs as daemon, and uses a pidfile to gracefully shutdown all processes.
 
+Medusa starts with these parameters: `-d --pidfile=/apps/medusa/medusa.pid` All other options are fully customizable. Note: the pidfile is required,  to be able to toggle Medusa on or off.
+
+#### How to update Medusa
+Use the update option of Medusa (`Check For Updates`)
+
+### Additional information
+Medusa requires
+
+* Python 2 – 2.7.10 and above, or
+* Python 3 – 3.5.0 and above (Note: Python 3.5.x is n't available yet on ReadyNAS OS6, yet; April 2, 2020)
+
+Medusa runs as daemon, and uses a pidfile to gracefully shutdown all processes.
+
 
   File: fvapp-medusa.service
   
@@ -26,15 +39,6 @@ Medusa runs as daemon, and uses a pidfile to gracefully shutdown all processes.
 These parameters are necessary to use the PIDfile [PID files of services vs. systemd](https://lists.debian.org/debian-user/2016/10/msg00422.html)
 
 Medusa starts with these parameters: `-d --pidfile=/apps/medusa/medusa.pid` All other options are fully customizable. Note: the pidfile is required,  to be able to toggle Medusa on or off.
-
-#### How to update Medusa
-Use the update option of Medusa (`Check For Updates`)
-
-### Additional information
-Medusa requires
-
-* Python 2 – 2.7.10 and above, or
-* Python 3 – 3.5.0 and above (Note: Python 3.5.x is n't available yet on ReadyNAS OS6, yet; April 2, 2020)
 
 ## FAQ
 * Migrate from Python2 to Python3
