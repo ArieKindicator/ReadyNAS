@@ -48,4 +48,4 @@ _Migrate from Python2 to Python3_
 Or
 
 * Shutdown Medusa and edit the `fvapp-medusa.service` file in `/apps/medusa`.
-Change `/usb/bin/phython2` to `/usb/bin/phython3` in `ExecStart=/usr/bin/python2 /apps/medusa/start.py -d --pidfile=/apps/medusa/medusa.pid`
+Change `/usb/bin/phython2` to `/usr/bin/phython3` in `ExecStart=/usr/bin/python2 /apps/medusa/start.py -d --pidfile=/apps/medusa/medusa.pid`
